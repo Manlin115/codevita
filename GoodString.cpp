@@ -5,7 +5,7 @@ int main() {
     string s1, s2;
     getline(cin, s1);
     getline(cin, s2);
-
+    
     vector<int> a;
     for (auto i : s1) {
         a.push_back((int)i);
