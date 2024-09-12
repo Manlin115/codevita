@@ -15,7 +15,7 @@ int main() {
     
     int K;
     cin >> K;
-    --K; // Convert to 0-based index
+    --K; 
     
     vector<int> original_priorities = priorities;
     int serve_count = 0;
