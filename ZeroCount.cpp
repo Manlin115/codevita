@@ -12,7 +12,8 @@ int zerocount(int L, int K) {
         max_zeros = 1;
     }
     return max_zeros;
-}int main() {
+}int main() 
+{
     int L, K;
     cin >> L >> K;
     int res = zerocount(L, K);
